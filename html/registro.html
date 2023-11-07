@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/registro.css" />
+    <title>Registro</title>
+</head>
+
+<body>
+    <div class="register">
+        <div class="register__box">
+            <div class="register__value">
+                <form action="" class="register__form">
+                    <div class="register__text">
+                        <h2 class="tittle">Registro</h2>
+                        
+                        <p class="texto">
+                            Registrate para disfrutar de nuestros ¡servicios!
+                        </p>
+                
+                    </div>
+                    <div class="register__input">
+                        <ion-icon class="register__icon" name="person-circle-outline"></ion-icon>
+                        <label for="usuario" class="register__label">Nombre de Usuario</label>
+                        <input type="text" name="usario" id="nombre" class="register__input-text"  required />
+                    </div>
+                    <div class="register__input">
+                        <ion-icon class="register__icon" name="mail-outline"></ion-icon>
+                        <label for="email" class="register__label" class="register__label">Email</label>
+                        <input type="email" name="email" class="register__input-text" id="email"   required />
+                    </div>
+                    <div class="register__input">
+                        <ion-icon  class="register__icon" name="lock-closed-outline"></ion-icon>
+                        <label for="contrasena" class="register__label">contraseña</label>
+                        <input type="password" name="contrasena" class="register__input-text" id="contrasena"  required />
+                    </div>
+                    <button class="register__button" type="submit">Registrarse</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

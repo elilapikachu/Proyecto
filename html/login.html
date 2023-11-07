@@ -1,26 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicia sesión</title>
-    <link rel="stylesheet" href="/css/login.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
 </head>
-<body>
-    <!--Inicio formulario de inicio de sesión-->
-    <form action="" class="form-login"></form>
-    <h1 class="form__tittle">Inicio de sesión</h1>
-    <p class="form__parrafo">Bienvenido! Por favor inicia sesión para continuar.</p>
-    <!--Entradas-->
-    <label for="">Email</label>
-    <input type="email" placeholder="Ingresa tu Correo" class="form__input-email-text">
-    <label for="">Password</label>
-    <input type="password" placeholder="Ingresa tu contraseña" class="form__input-password-text">
-    <!--Espacio donde el usuario dice si le gustaria que el programa lo recodara-->
-    <input type="checkbox" name="" id="">
-    <label for="">Recordarme</label>
-    <!--Link de si el usuario olvido su contraseña-->
-    <a href="#" class="form__link">Olvido su contraseña?</a>
 
+<body>
+    <div class="login">
+        <div class="login__box">
+            <div class="login__value">
+                <form action="" class="register__form">
+                    <div class="login__text">
+                        <h2 class="tittle">Inicio de sesión</h2>
+                    </div>
+                    <div class="login__input">
+                        <ion-icon class="login__icon" name="mail-outline"></ion-icon>
+                       
+                        <input type="email" name="email" class="login__input-text" id="email"  placeholder="Ingresa tu Email" required />
+                    </div>
+                    <div class="login__input">
+                        <ion-icon  class="login__icon" name="lock-closed-outline"></ion-icon>
+                        <input type="password" name="contrasena" class="login__input-text" id="contrasena" placeholder="Ingresa tu contraseña" required />
+                    </div>
+                    <div class="login__text">
+                        <p class="login__texto">
+                            ¿no tienes cuenta? <a href="registro.html" class="login__link">¡Registrate!</a>
+                        </p>
+                    </div>
+                    <button class="login__button" type="submit">Registrarse</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
