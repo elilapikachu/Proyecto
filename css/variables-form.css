@@ -5,8 +5,12 @@
 @import "./login.css";
 
 :root{
---body_color:#F2F2F2;
+--color-text_registro: #a64724;
+--color-text_login: #353535;
+--margin-top: 1.875rem;
+--gap: 4px;
 --tittle_font-size: 2rem;
+--margin-buttom: 5px;
 }
 
 

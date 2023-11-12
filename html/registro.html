@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/registro.css" />
+    <link rel="stylesheet" href="../css/variables-form.css" />
     <title>Registro</title>
 </head>
 
@@ -23,7 +23,7 @@
                     </div>
                     <div class="register__input">
                         <ion-icon class="register__icon" name="person-circle-outline"></ion-icon>
-                        <label for="usuario" class="register__label">Nombre de Usuario</label>
+                        <label for="usuario" class="register__label">Nombres y Apellidos</label>
                         <input type="text" name="usario" id="nombre" class="register__input-text"  required />
                     </div>
                     <div class="register__input">
@@ -35,6 +35,17 @@
                         <ion-icon  class="register__icon" name="lock-closed-outline"></ion-icon>
                         <label for="contrasena" class="register__label">contraseña</label>
                         <input type="password" name="contrasena" class="register__input-text" id="contrasena"  required />
+                    </div>
+                    <div class="register__radio">
+                        <label   class="register__label-genero" for="mujer">Mujer</label>
+                        <input class="register__input-radio" type="radio" name="genero" id="mujer" value="mujer">
+                        <label  class="register__label-genero" for="hombre">Hombre</label>
+                        <input class="register__input-radio" type="radio" name="genero" id="hombre" value="hombre">
+                    </div>
+                    <div class="register__text">
+                        <p class="register__texto">
+                            ¿ya tienes cuenta? <a href="login.html" class="register__link">¡inicia sesión!</a>
+                        </p>
                     </div>
                     <button class="register__button" type="submit">Registrarse</button>
                 </form>
