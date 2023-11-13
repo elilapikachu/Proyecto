@@ -1,0 +1,17 @@
+/*font familys*/
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300&family=Mooli&family=Noto+Sans:wght@200&family=Playfair+Display:ital@1&family=Playpen+Sans:wght@200&family=Roboto:ital,wght@1,100&family=Space+Grotesk&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300&family=Mooli&family=Noto+Sans:wght@200&family=Oswald:wght@300&family=Playfair+Display:ital@1&family=Playpen+Sans:wght@200&family=Roboto:ital,wght@1,100&family=Space+Grotesk&display=swap');
+
+/*Archivos importados*/
+@import "./index.css";
+
+/* variables*/
+:root {
+    --font_family-text: "Dancing Script", cursive, "Montserrat", sans-serif, "Mooli", sans-serif, "Noto Sans", sans-serif, "Playfair Display", serif, "Playpen Sans", cursive, "Roboto", sans-serif, "Space Grotesk", sans-serif;
+    --font_family-tittle: 'Dancing Script', cursive, 'Montserrat', sans-serif, 'Mooli', sans-serif, 'Noto Sans', sans-serif, 'Oswald', sans-serif, 'Playfair Display', serif, 'Playpen Sans', cursive, 'Roboto', sans-serif, 'Space Grotesk', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
