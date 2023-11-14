@@ -6,12 +6,32 @@
 @import "./index.css";
 
 /* variables*/
+
 :root {
+
+    /*font-familys*/
     --font_family-text: "Dancing Script", cursive, "Montserrat", sans-serif, "Mooli", sans-serif, "Noto Sans", sans-serif, "Playfair Display", serif, "Playpen Sans", cursive, "Roboto", sans-serif, "Space Grotesk", sans-serif;
     --font_family-tittle: 'Dancing Script', cursive, 'Montserrat', sans-serif, 'Mooli', sans-serif, 'Noto Sans', sans-serif, 'Oswald', sans-serif, 'Playfair Display', serif, 'Playpen Sans', cursive, 'Roboto', sans-serif, 'Space Grotesk', sans-serif;
+    /*boxes*/
+    --navbar_footer-color: #402610;
+    --body-color: #A67D65;
+    --section-color: #D9B9A7;
+
+    /*textos*/
+    --text-color: #734D45;
+    --tittle-color: #260101; 
+    --link-color:  #A67D65;
+    --link-color_hover: #654e40;
+
+    /*Medidas*/
+    --font-size: 1.563rem;
+    --gap:3.125rem;
+
 }
 
 * {
     padding: 0;
     margin: 0;
 }
+
+
